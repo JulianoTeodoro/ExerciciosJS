@@ -25,7 +25,7 @@ console.log(Math.round(Math.random()));
 console.log(Math.max(1,2,3,4,5,6,7,8));
 console.log(Math.pow(4, 2));
 
-let numero = 55.52123;
+let numero = prompt('Digite um numero');
 numero = Number(numero);
 console.log(typeof(numero));
 const numerotitulo = document.getElementById("numero-titulo");
@@ -47,7 +47,3 @@ nan.innerHTML = Number.isNaN(numero);
 baixo.innerHTML = Math.floor(numero);
 cima.innerHTML = Math.ceil(numero);
 duascasas.innerHTML = Number(numero).toFixed(2);
-
-const alunos = ['Eu' , 'juliano'];
-alunos.unshift('Mas');
-console.log(alunos);
